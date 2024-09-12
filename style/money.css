@@ -1,0 +1,98 @@
+  body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffeb3b;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    color: #e91e63;
+    text-shadow: 2px 2px #fff;
+    font-size: 2.5em;
+  }
+  #ranking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    border: 5px solid #4caf50;
+  }
+  .country-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f3e5f5;
+    transition: transform 0.3s ease;
+  }
+  .country-item:hover {
+    transform: scale(1.05);
+  }
+  .country-rank {
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #9c27b0;
+  }
+  .country-name {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .country-debt {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  .flag {
+    width: 50px;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  #debt-counter {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    color: #e74c3c;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  #funny-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  #funny-images img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #3f51b5;
+    transition: transform 0.3s ease;
+  }
+  #funny-images img:hover {
+    transform: rotate(15deg);
+  }
+  @keyframes moneyRain {
+    0% { transform: translateY(-100%) rotate(0deg); opacity: 0; }
+    100% { transform: translateY(1000%) rotate(360deg); opacity: 0; }
+  }
+  .money {
+    position: fixed;
+    font-size: 30px;
+    user-select: none;
+    z-index: 1000;
+  }
