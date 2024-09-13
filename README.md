@@ -20,12 +20,6 @@ Welcome to the World Debt Fiesta, a hilarious and eye-opening web application th
 - 🔄 Real-time updates keep you on the edge of your seat
 - 🎨 Vibrant, engaging design that pops off the screen
 
-## But Wait, There's More!
-
-Love what you see? This is just a taste of what AI Web Architects can do for you! Visit our shop for more amazing website and app designs that will take your online presence to the next level.
-
-🛒 [Check Out Our Shop](https://aiwebarchitects.com/)
-
 ## Stay Connected
 
 Follow us on X for the latest updates, design tips, and web development insights:
@@ -47,4 +41,4 @@ Ready to turn your web dreams into reality? AI Web Architects is here to help! F
 
 ---
 
-Created with ❤️ and 🤖 by AI Web Architects
+Created with ❤️ and 🤖 by [@aiwebarchitects](https://x.com/aiwebarchitects)
